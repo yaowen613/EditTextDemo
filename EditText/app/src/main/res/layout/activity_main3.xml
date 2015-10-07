@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yaowen.edittext.Main3Activity">
+
+    <EditText
+        android:id="@+id/et1_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:digits="1234567890.+-*/%\n()"
+        android:hint="只能输入1234567890.+-*/%()"
+        />
+
+    <Button
+        android:id="@+id/btn1_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+    <EditText
+        android:id="@+id/et2_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:phoneNumber="true"
+        android:hint="只能输入电话号码"/>
+
+    <Button
+        android:id="@+id/btn2_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+    <EditText
+        android:id="@+id/et3_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/btn3_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+    <EditText
+        android:id="@+id/et4_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F0F0F0"
+        android:textColorHint="#FF0000"
+        android:hint="test!!!!!!"/>
+
+    <EditText
+        android:id="@+id/et5_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="这个世界真大啊！"
+        android:enabled="false" />
+
+
+
+</LinearLayout>

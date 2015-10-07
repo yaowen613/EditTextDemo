@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/et1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="简单的EditText" />
+
+    <Button
+        android:id="@+id/et2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="限制EditText的输入内容" />
+
+    <Button
+        android:id="@+id/et3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText中显示图片" />
+
+    <Button
+        android:id="@+id/et4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="设置软件盘中的ENTER键" />
+
+    <Button
+        android:id="@+id/et5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="监听软件盘中的按键状态" />
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
